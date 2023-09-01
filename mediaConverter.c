@@ -288,7 +288,7 @@ boolean media_conv_debugger(const char* file_hash) {
 	com_println("* Magic Number : '%s'",magic_number      );
 	com_println("* File Version : %d"  ,file_version      );
 	com_println("* Media Size   : %s"  ,readable_file_size);
-	com_println("* Relative Path:'%s'" ,original_filename );
+	com_println("* Relative Path: '%s'" ,original_filename );
 	com_pause();
 	
 	free(readable_file_size);
